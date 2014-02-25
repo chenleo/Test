@@ -12,50 +12,50 @@
 % graphicx: manage external pictures
 % inputenc: encoding of input text
 
-\documentclass[11pt]{article}
-
-\setlength{\oddsidemargin}{0.0in}
-\setlength{\evensidemargin}{0.0in}
-\setlength{\topmargin}{-0.25in}
-\setlength{\headheight}{0in}
-\setlength{\headsep}{0in}
-\setlength{\textwidth}{6.5in}
-\setlength{\textheight}{9.25in}
-\setlength{\parindent}{0in}
-\setlength{\parskip}{2mm}
-
-\title{The Binomial Distribution}
-\author{Chris Fonnesbeck}
-
-\begin{document}
-
-\maketitle % generates a title based on the information in the preamble
-
-The binomial distribution is a discrete probability distribution used to
-model bounded counts. Specifically, a binomial random variable $x$ represents
-% the $ delimiter marks the start and end of a mathematical expression
-the number of successes in $n$ independent Bernoulli trials, where $p$ is
-the probability of success, and $1-p$ the probability of failure.
-
-% a blank line means a new paragraph
-
-The probability mass function of the binomial distribution is:
-
-\begin{equation}
-    f(x | n,p) = {n \choose x} p^x (1-p)^{n-x} % note the need for braces around the n-x
-\end{equation}
-
-\noindent where $x = 0,1,2,\ldots,n$ and $p \in [0,1]$.
-
-Applications of the binomial distribution include:
-
-\begin{itemize} % this is an unordered list
-    \item Estimation of probabilities of outcomes in any set of success or failure trials
-    \item Estimation of probabilities of outcomes in games of chance
-    \item Sampling of attribute
-\end{itemize}
-
-\end{document}  % required; the document ends here
+%\documentclass[11pt]{article}
+%
+%\setlength{\oddsidemargin}{0.0in}
+%\setlength{\evensidemargin}{0.0in}
+%\setlength{\topmargin}{-0.25in}
+%\setlength{\headheight}{0in}
+%\setlength{\headsep}{0in}
+%\setlength{\textwidth}{6.5in}
+%\setlength{\textheight}{9.25in}
+%\setlength{\parindent}{0in}
+%\setlength{\parskip}{2mm}
+%
+%\title{The Binomial Distribution}
+%\author{Chris Fonnesbeck}
+%
+%\begin{document}
+%
+%\maketitle % generates a title based on the information in the preamble
+%
+%The binomial distribution is a discrete probability distribution used to
+%model bounded counts. Specifically, a binomial random variable $x$ represents
+%% the $ delimiter marks the start and end of a mathematical expression
+%the number of successes in $n$ independent Bernoulli trials, where $p$ is
+%the probability of success, and $1-p$ the probability of failure.
+%
+%% a blank line means a new paragraph
+%
+%The probability mass function of the binomial distribution is:
+%
+%\begin{equation}
+%    f(x | n,p) = {n \choose x} p^x (1-p)^{n-x} % note the need for braces around the n-x
+%\end{equation}
+%
+%\noindent where $x = 0,1,2,\ldots,n$ and $p \in [0,1]$.
+%
+%Applications of the binomial distribution include:
+%
+%\begin{itemize} % this is an unordered list
+%    \item Estimation of probabilities of outcomes in any set of success or failure trials
+%    \item Estimation of probabilities of outcomes in games of chance
+%    \item Sampling of attribute
+%\end{itemize}
+%
+%\end{document}  % required; the document ends here
 
 %Command											Level
 %\part{this is a part}							-1
@@ -65,3 +65,27 @@ Applications of the binomial distribution include:
 %\subsubsection{this is a subsubsection}			3
 %\paragraph{this is a paragraph}					4
 %\subparagraph{this is a subparagraph}			5
+
+% LaTeX Tutorial I A Primer Indian TeX Users Groups
+
+% Chapter 1: The Basics
+
+\documentclass[14pt]{article}
+\begin{document}
+
+This is my \emph{first} document prepared in \LaTeX.
+
+I typed it on \today.
+
+\begin{center}
+The \TeX nical Institute\\[.75cm]
+Certificate
+\end{center}
+\noindent This is to certify that Mr. N. O. Vice has undergone a course at this institute and is qualified to be a \TeX nician.
+
+\begin{flushright}
+The Director\\
+The \TeX nical Institute.
+\end{flushright}
+
+\end{document}
