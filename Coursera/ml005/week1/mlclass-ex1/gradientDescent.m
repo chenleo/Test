@@ -19,10 +19,10 @@ for iter = 1:num_iters
     h = theta' * X';
     
     % theta = theta - alpha/m * sum((h' - y)' * X);
-    theta = theta - alpha/m * sum((h' - y)' * X);
+    theta = theta - alpha/m * ((h - y') * X)';
 
 
-
+ 
 
 
     % ============================================================
