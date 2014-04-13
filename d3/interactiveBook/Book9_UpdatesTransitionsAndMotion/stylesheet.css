@@ -1,0 +1,7 @@
+rect:hover {
+  fill: orange;
+}
+
+rect:click {
+  fill: red;
+}

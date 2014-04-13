@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+p {
+    font-size: 12px;
+    line-height: 14px;
+    color: black;
+    background-color: red;
+}
+
+svg {
+  width: 50;
+  height: 50;
+}
+
+circle {
+  cx: 25;
+  cy: 25;
+  r: 22;
+  fill: blue;
+  stroke: gray;
+  stroke-width: 2;
+}
